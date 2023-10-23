@@ -1,0 +1,34 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+
+body{
+    background-color: #5181e7;
+    background-image: linear-gradient(to right, #5181e7, #1659e6, #0137a3);
+}
+
+h1{
+    color: white;
+}
+
+
+.next{
+    width: 130px;
+    height: 50px;
+    background: transparent;
+    border: 2px solid #fff;
+    outline: none;
+    border-radius: 6px;
+    cursor: pointer;
+    font-size: 1.1em;
+    color: white;
+    font-weight: 500;
+    margin-left: 40px;
+    transition: .5s;
+}
+
+.next:hover{
+    background-color: #0137a3;
+    color: white;
+}
